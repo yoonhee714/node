@@ -41,6 +41,7 @@ numbers.forEach((number) => {
   { name: "kim", point: 23 },
   { name: "lee", point: 56 },
 ]
+
   .filter((elem, idx, ary) => {
     //console.log(elem);
     if (elem.point > 30) {
@@ -51,3 +52,7 @@ numbers.forEach((number) => {
   .forEach((elem) => {
     console.log("이름:" + elem, name);
   });
+
+//map (mapping)
+// A->A'
+//{name, age, point} =>{name, point}

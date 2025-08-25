@@ -10,4 +10,9 @@ const sum = (num1 = 0, num2 = 0) => {
 };
 //myFunc();
 
-export { myFunc, defaultNum, sum };
+//export { myFunc, defaultNum, sum };
+module.exports = {
+  myFunc,
+  defaultNum,
+  sum,
+};
